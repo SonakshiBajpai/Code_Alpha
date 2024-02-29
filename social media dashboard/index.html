@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5714f89eda.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="menu-icon" onclick="openSidebar()">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+            <div class="header-left">
+                <span class="material-symbols-outlined">search</span>
+            </div>
+            <div class="header-right">
+                <div class="icon-container">
+                    <span class="material-symbols-outlined">notifications</span>
+                    <span class="material-symbols-outlined">email</span>
+                    <span class="material-symbols-outlined">account_circle</span>
+                </div>
+            </div>
+        </header>
+        
+        <aside id="sidebar">
+            <div class="sidebar-title">
+                <div class="sidebar-brand">
+                    <span class="material-symbols-outlined">
+                        mood
+                        </span>LOGO
+
+                </div>
+                <span class="material-symbols-outlined" onclick="openSidebar()">
+                    close
+                    </span>
+            </div>
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item">
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            dashboard
+                        </span>
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            leaderboard
+                        </span>
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            forum
+                        </span>
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            phone
+                        </span>
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            email
+                        </span>
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            poll
+                        </span>
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            settings
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main-container">
+            <div class="main-title">
+                <h2>DASHBOARD</h2>
+            </div>
+            <div class="main-cards">
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>LIKES</h2>
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                        </span>
+                    </div>
+                    <h1>4021</h1>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>FOLLOWERS</h2>
+                        <span class="material-symbols-outlined">
+                            groups
+                        </span>
+                    </div>
+                    <h1>4021</h1>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>SUBSCRIBERS</h2>
+                        <span class="material-symbols-outlined">
+                            subscriptions
+                        </span>
+                    </div>
+                    <h1>8731</h1>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>MESSAGES</h2>
+                        <span class="material-symbols-outlined">
+                            forum
+                        </span>
+                    </div>
+                    <h1>1962</h1>
+                </div>
+
+            </div>
+            <div class="products">
+                <div class="product-card">
+                    <h2 class="product-description">Latest Update</h2>
+                    <p class="text-secondary">
+                        Leo porttitor. Sit lacinia per bibendum vestibulum aliquam netus et magna lacinia.
+                        Convallis tristique vestibulum platea. Nulla aenean.
+                        Hymenaeos vulputate aliquam Suspendisse diam quisque iaculis arcu imperdiet, justo tempus sociis.
+                    </p>
+                    <button type="button" class="product-button">
+                        <span class="material-symbols-outlined">add</span>
+                    </button>
+                </div>
+                <div class="social-media">
+                    <div class="product">
+                        <div class="product-icon background-red">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-red">Twitter</h1>
+                            <p class="text-secondary">Follow us on Twitter for the latest updates.</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-icon background-green">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-green">Instagram</h1>
+                            <p class="text-secondary">Follow us on Instagram for behind-the-scenes content.</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-icon background-orange">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-orange">Facebook</h1>
+                            <p class="text-secondary">Like our Facebook page for more updates.</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-icon background-blue">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-blue">LinkedIn</h1>
+                            <p class="text-secondary">Connect with us on LinkedIn for professional updates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    <script src="js/scripts.js"></script>
+</body>
+</html>
